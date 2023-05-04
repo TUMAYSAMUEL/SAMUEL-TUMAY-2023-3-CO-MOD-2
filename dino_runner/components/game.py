@@ -115,8 +115,8 @@ class Game:
 
     def update_score(self):
         self.score.update()
-        if self.score.count % 100 == 0 and self.game_speed < 200:
-            self.game_speed += 2
+        if self.score.count % 100 == 0 and self.game_speed < 250:
+            self.game_speed += 2.5
 
         #print(f"Score: {self.score} Speed: {self.game_speed}")
     
